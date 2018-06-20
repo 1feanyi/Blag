@@ -1,0 +1,33 @@
+2018-06-19 12:20:18.741 -04:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 12:20:18.814 -04:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 12:20:18.814 -04:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 12:20:18.817 -04:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 12:20:18.820 -04:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 12:25:11.152 -04:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 12:25:11.181 -04:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 12:25:11.182 -04:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 12:25:11.182 -04:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 12:25:11.182 -04:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 11:53:25.985 -04:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 11:53:26.017 -04:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 11:53:26.017 -04:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 11:53:26.017 -04:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 11:53:26.018 -04:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 11:54:23.686 -04:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 11:54:39.575 -04:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-20 11:54:39.579 -04:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-20 11:54:39.580 -04:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-20 11:54:39.592 -04:00 [DBG] Start discovery request
+2018-06-20 11:54:40.229 -04:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2018-06-20 11:55:34.293 -04:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 11:56:12.734 -04:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 11:56:13.326 -04:00 [DBG] Augmenting SignInContext
+2018-06-20 11:56:13.329 -04:00 [DBG] Adding idp claim with value: local
+2018-06-20 11:56:13.330 -04:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 11:56:13.331 -04:00 [DBG] Adding auth_time claim with value: 1529510173
+2018-06-20 11:56:13.342 -04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 11:56:13.469 -04:00 [DBG] 0 persisted grants found for ef320321-f895-4af9-bd3e-b613eaa03775
+2018-06-20 11:57:14.074 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 11:57:14.116 -04:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-06-20 11:57:14.152 -04:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-06-20 11:57:14.153 -04:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
