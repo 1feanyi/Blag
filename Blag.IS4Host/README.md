@@ -1,6 +1,6 @@
 # Blag
 
-Identification and Access control Web application
+Identification Authorization and Access control Web application
 
 ## Built With
 
